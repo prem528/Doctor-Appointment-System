@@ -9,17 +9,17 @@ export default function Home() {
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
           <Image 
-          src="/assets/icons/logo-full.svg"
-          height={1000}
-          width={1000}
+          src="/assets/icons/medicarelogo.svg"
+          height={10}
+          width={10}
           alt="patient"
-          className="mb-12 h-10 w-fit"
+          className="h-20 w-44"
           />
 
           <PatientForm/>
           <div className="text-14-regular mt-20 flex justify-between">
             <p className="justify-items-end text-dark-600 xl:text-left ">
-            © 2024 CarePlus 
+            © 2024 MediCare
             </p>
             <Link href='/?admin=true' className="text-green-500">
             Admin 
